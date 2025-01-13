@@ -1,0 +1,667 @@
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+/*banner styles*/
+.banner-container{
+  max-width:auto;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display:flex;
+  
+  justify-content: space-between;
+  align-items:center ;
+  border-radius:24px;
+  padding:70px 70px 85px 85px;
+
+}
+ .banner-content{
+  
+  max-width:622px;
+  margin-left:40px;
+ }
+ .banner-subtitle{
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+.banner-title{
+  color: rgb(14, 14, 14);
+ font-family: Fira Sans;
+ font-size: 54px ;
+ font-weight: 700;
+ line-height: 67px;
+ letter-spacing: 0%;
+ text-align: left;
+ margin-bottom:24px;
+}
+
+.banner-button{
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  
+  
+  
+}
+.banner-button:hover{
+     background-color: red;
+}
+
+.banner-image{
+  width: 475px;
+  height: 500px;
+  margin:80px 80px 60px 64px;
+ 
+}
+
+/*vision styles*/
+
+.vision-container{
+  background-color: rgba(241, 241, 243, 1);
+  margin:80px 0px;
+}
+.vision-title{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left:20px;
+}
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left:20px;
+}
+.vision-box{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:24px;
+  
+}
+.box-one{
+
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+  background:rgba(84, 144, 245, 0.2);
+  flex-direction:column;
+  padding:32px;
+  margin:0 24px;
+  position: static;
+  width: 410.67px;
+  height: 325px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box-one-title{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+.box-one-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-one-button{
+  padding:9px 18px 9px 18px;
+  background:rgb(84, 144, 245);
+  border-radius: 8px;
+  border-color: none;
+  margin-top: 30px;
+  margin-bottom:32px;
+  color: rgb(255, 255, 255);
+
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 19px;
+ letter-spacing: 0%;
+ text-align: left;
+ border-style:none;
+
+}
+.box-one-button:hover{
+   background-color: blueviolet;
+}
+.box-two{
+  position: static;
+  width: 410.67px;
+  height: 325px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+  background: rgb(198, 228, 214);
+  padding:32px;
+}
+
+.box-two-title{
+  
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-two-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom:20px;
+}
+.box-two-button{
+  
+  padding:9px 18px 9px 18px;
+  background-color: rgb(9, 161, 92);
+  border-radius: 8px;
+  border-color: none;
+  margin-top: 30px;
+  margin-bottom:32px;
+  color: rgb(255, 255, 255);
+
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 19px;
+ letter-spacing: 0%;
+ text-align: left;
+ border-style:none;
+}
+
+.box-two-button:hover{
+     background-color: red;
+}
+  
+.box-three{
+  position: static;
+  width: 410.67px;
+  height: 325px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+  background: rgb(247, 235, 207);
+  padding:24px;
+}
+.box-three-title{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-three-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-three-button{
+    padding:9px 18px 9px 18px;
+  background-color:rgb(255, 194, 57);
+  border-radius: 8px;
+  border-color: none;
+  margin-top: 30px;
+  margin-bottom:32px;
+  color: rgb(255, 255, 255);
+
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 19px;
+ letter-spacing: 0%;
+ text-align: left;
+ border-style:none;
+}
+.box-three-button:hover{
+    background-color: rgb(4, 201, 201);
+}
+
+/*recent news styles*/
+ .recent-news{
+   background-color:rgba(241, 241, 243, 1);
+   margin:80px 0x;
+   
+ }
+ .recent-news-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+    border-radius: 24px;
+
+    background: rgb(255, 255, 255);  
+    flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-right:21px; 
+  margin-left:21px;
+  margin-bottom:20px;
+  
+ }
+ .recent-news-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left:20px;
+ }
+ .recent-news-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom:10px;
+  margin-left:20px;
+ }
+ 
+ .recent-news-image{
+      border-radius:24px;
+      
+      position: static;
+      width: 408px;
+      height: 306px;
+      margin: 0px 32px;
+ }
+ .recent-news-content-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-logo{
+     margin:12px 0px;
+ }
+ .recent-news-content-sub-title{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-button{
+  border-radius: 8px;
+  padding:12px 25px 12px 25px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-style: none;
+ }
+ .recent-news-content-button:hover{
+    background-color: rgb(141, 31, 244);
+ }
+ 
+ /* donate section styles */
+.donate-section{
+  background-color:rgba(241, 241, 243, 1);
+   margin:20px 20px 8px 8px;
+}
+.donate-section-title{
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top:50px;
+}
+.donate-section-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.donate-section-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap:25px;
+}
+
+.card-box-one{
+  width: 240px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+ .card-box-one:hover{
+      background-color: red;
+ }
+
+.card-box-two{
+  width: 252px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(198, 228, 214);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+    
+ 
+}
+.card-box-two:hover{
+    background-color: blueviolet;
+}
+.card-box-thre{
+  
+  width: 243px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.card-box-thre:hover{
+     background-color:rgb(226, 250, 13);
+}
+
+.card-box-four{
+
+    
+  width: 243px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+.card-box-four:hover{
+  background-color:rgb(4, 128, 166) ;
+}
+
+.donate-section-amount{
+  
+  position: static;
+  width: 1032px;
+  height: 64px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24;
+  padding: 10px 20px 10px 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+    border-style:none;
+    text-align:center;
+    margin:20px auto;
+  
+}
+
+.donate-section-button{
+  position: static;
+  width: 151px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 32px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin:auto;
+}
+.donate-section-button:hover{
+     background-color: rgb(205, 29, 29);
+}
+
+/* newsletter section styles*/
+
+.newsletter-section{
+  
+  width: auto;
+  height:250px ; 
+  border-radius: 24px;
+
+   background: rgb(198, 228, 214);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 64;
+   padding: 60px 80px 60px 80px;
+}
+.newsletter-section-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.newsletter-section-description{
+
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+ 
+.newsletter-section-input{
+     display:flex;
+}
+
+.newsletter-section-email{
+  position: static;
+  width: 600px;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+ 
+  letter-spacing: 0%;
+  text-align: left;
+   border-style: none;
+}
+.newsletter-section-button{
+ 
+  position: static;
+  width: 150px;
+   
+  height: 60.5px;
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align:center;
+  border-style:none;
+     
+}
+.newsletter-section-button:hover{
+   background-color: rgb(230, 238, 5);
+}
+.newsletter-section-declaration{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+
